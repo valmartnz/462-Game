@@ -8,6 +8,9 @@ TextureImporter:
   - first:
       213: 6957734447361721616
     second: wall_1
+  - first:
+      213: 6591716156378716260
+    second: TX Tileset Wall_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -113,9 +116,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 160
-        width: 64
-        height: 64
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,7 +141,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -146,6 +149,27 @@ TextureImporter:
       bones: []
       spriteID: 0158e70cd96de8060800000000000000
       internalID: 6957734447361721616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Tileset Wall_2
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 384
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46818297bea7a7b50800000000000000
+      internalID: 6591716156378716260
       vertices: []
       indices: 
       edges: []
