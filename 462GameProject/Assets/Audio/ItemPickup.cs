@@ -5,14 +5,14 @@ using UnityEngine;
 public class ItemPickup : MonoBehaviour
 {
     public AudioClip audio_clip;
+    
 
-
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter2D(Collider2D col)
     {
-        if (other.gameObject.tag == "Item")
+        if (col.gameObject.tag == "Item")
         {
             AudioSource.PlayClipAtPoint(audio_clip, transform.position);
-            Debug.Log("teas");
+            Destroy(col.gameObject);
         }
     }
 }
