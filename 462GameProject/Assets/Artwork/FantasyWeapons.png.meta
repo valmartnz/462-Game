@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 6e8032bc879f88e49a929faf869163af
+guid: 96dc24809442f4446a9aa46ad6df7ee2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7372764180884006581
-    second: skeleton_0
+      213: 1890775650057593451
+    second: wood_sword
+  - first:
+      213: -3051561233728714730
+    second: silver_sword
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -94,22 +97,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: skeleton_0
+      name: wood_sword
       rect:
         serializedVersion: 2
-        x: 39
-        y: 96
-        width: 19
-        height: 25
+        x: 3
+        y: 67
+        width: 26
+        height: 26
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b495fa14a0eaea990800000000000000
-      internalID: -7372764180884006581
+      spriteID: b6224ab9f626d3a10800000000000000
+      internalID: 1890775650057593451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver_sword
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 129
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6184f3dc93da6a5d0800000000000000
+      internalID: -3051561233728714730
       vertices: []
       indices: 
       edges: []
