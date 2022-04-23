@@ -4,10 +4,21 @@ using UnityEngine;
 
 public class Player : Mover
 { 
-    private void FixedUpdate() {
-        float x = Input.GetAxisRaw("Horizontal");
-        float y = Input.GetAxisRaw("Vertical");
+    public Rigidbody2D rb;
+    public float moveSpeed = 3f;
+    public Animator animator;
 
-        UpdateMotor(new Vector3(x, y, 0));
+    Vector2 movement;
+
+    void Update() {
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
+    }
+    private void FixedUpdate() {
+        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 }
