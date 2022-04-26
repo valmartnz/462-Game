@@ -4,7 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Fighter
+  - Item
+  - Money
   layers:
   - Default
   - TransparentFX
@@ -12,8 +13,6 @@ TagManager:
   - 
   - Water
   - UI
-  - Blocking
-  - Actor
   - 
   - 
   - 
@@ -28,7 +27,9 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Layer 1
+  - Layer 2
+  - Layer 3
   - 
   - 
   - 
@@ -43,10 +44,13 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: Floor
-    uniqueID: 1966242313
+    uniqueID: 2425651459
     locked: 0
   - name: Actor
-    uniqueID: 4179089983
+    uniqueID: 4250941897
+    locked: 0
+  - name: Layer 3
+    uniqueID: 4189426099
     locked: 0
   - name: Interactable
     uniqueID: 3958166805
