@@ -1,21 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+// using System.Collections;
+// using System.Collections.Generic;
+// using UnityEngine;
 
-public class Collectable : Collide
-{
-    protected bool collected;
+// public class Collectable : Collide
+// {
+//     protected bool collected;
     
-    protected override void OnCollision(Collider2D coll)
-    {
-        if(coll.name == "PF Player")
-        {
-            Collect();
-        }
-    }
+//     protected override void OnCollision(Collider2D coll)
+//     {
+//         if(coll.name == "PF Player")
+//         {
+//             Collect();
+//         }
+//     }
 
-    protected virtual void Collect()
-    {
-        collected = true;
-    }
-}
+//     protected virtual void Collect()
+//     {
+//         collected = true;
+//     }
+// }
