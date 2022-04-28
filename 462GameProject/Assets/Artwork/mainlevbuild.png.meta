@@ -118,7 +118,7 @@ TextureImporter:
     second: brickWall_1
   - first:
       213: 21300076
-    second: mainlevbuild_38
+    second: pillar1_3
   - first:
       213: 21300078
     second: mainlevbuild_39
@@ -2987,6 +2987,9 @@ TextureImporter:
   - first:
       213: -6847793319153235135
     second: brickWall_1
+  - first:
+      213: -1703218779116828949
+    second: pillar1_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -3881,6 +3884,27 @@ TextureImporter:
       bones: []
       spriteID: 14b0494e140c7f0a0800000000000000
       internalID: -6847793319153235135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillar1_3
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 448
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be687ff5b83fc58e0800000000000000
+      internalID: -1703218779116828949
       vertices: []
       indices: 
       edges: []
