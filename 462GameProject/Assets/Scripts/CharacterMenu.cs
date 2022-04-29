@@ -9,6 +9,6 @@ public class CharacterMenu : MonoBehaviour
     public GameObject character;
     public void Submit() {
         PrefabUtility.SaveAsPrefabAsset(character, "Assets/Prefabs/Player.prefab");
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 }
