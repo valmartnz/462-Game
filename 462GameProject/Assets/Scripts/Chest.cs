@@ -11,7 +11,7 @@ public class Chest : Collectable
         if(!collected) {
             collected = true;
             GetComponent<SpriteRenderer>().sprite = emptyChest;
-            GameManager.instance.ShowText("+" + coinAmount + " coins", 25, Color.yellow, transform.position, Vector3.up * 25, 1.5f);
+            GameManager.instance.ShowText("+" + coinAmount + " coins", 25, Color.white, transform.position, Vector3.up * 25, 1.5f);
             // if want to make it our own color define it as new Color() nums btwn 0-1
             //Debug.Log("Grant " + coinAmount + " coins!");
         }
