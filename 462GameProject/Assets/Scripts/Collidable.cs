@@ -6,15 +6,20 @@ public class Collidable : MonoBehaviour
 {
     public ContactFilter2D filter;
     private BoxCollider2D boxCollider;
+    private PolygonCollider2D polyCollider;
+
     private Collider2D[] hits = new Collider2D[10];
 
     protected virtual void Start() {
         boxCollider = GetComponent<BoxCollider2D>();
+        polyCollider = GetComponent<PolygonCollider2D>();
     }
 
     protected virtual void Update() {
         // collision work
         boxCollider.OverlapCollider(filter, hits);
+        polyCollider.OverlapCollider(filter, hits);
+        
         for(int i = 0; i < hits.Length; i++) {
             if(hits[i] == null)
                 continue;
