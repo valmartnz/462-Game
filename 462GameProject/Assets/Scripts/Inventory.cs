@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Inventory : MonoBehaviour
 {
@@ -17,11 +18,11 @@ public class Inventory : MonoBehaviour
     public bool show_player;
 
     private int money = 0;
-    public Text moneyText;
+    public TMP_Text moneyText;
 
     private void Update()
     {
-        moneyText.text = "Money: " + money;
+        moneyText.text = "Coins: " + money + "G";
 
         //Open or close inventory by pressing "E"
         if (Input.GetKeyDown(KeyCode.E))
