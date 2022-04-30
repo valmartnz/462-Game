@@ -189,6 +189,7 @@ GameObject:
   - component: {fileID: 4151154471415418726}
   - component: {fileID: 4151154471415418727}
   - component: {fileID: 4151154471415418728}
+  - component: {fileID: 2448085423667837861}
   m_Layer: 7
   m_Name: Player
   m_TagString: Fighter
@@ -379,3 +380,16 @@ MonoBehaviour:
   show_shop: 0
   show_player: 1
   moneyText: {fileID: 0}
+--- !u!114 &2448085423667837861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4151154471415418721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12098b294a6d18c4083ec59422545f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audio_clip: {fileID: 8300000, guid: a4aad916230649e488fcc6180bd93afd, type: 3}
