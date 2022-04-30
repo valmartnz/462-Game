@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
+<<<<<<< Updated upstream
     private BoxCollider2D boxCollider;
     private Vector3 moveDelta;
     private RaycastHit2D hit;
+=======
+
+    Vector2 movement;
+>>>>>>> Stashed changes
 
     private void Start() {
         boxCollider = GetComponent<BoxCollider2D>();
@@ -43,4 +48,8 @@ public class Player : MonoBehaviour {
 
     }
 
+<<<<<<< Updated upstream
+=======
+    
+>>>>>>> Stashed changes
 }
