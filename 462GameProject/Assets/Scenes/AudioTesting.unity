@@ -966,6 +966,7 @@ GameObject:
   - component: {fileID: 376833627}
   - component: {fileID: 376833623}
   - component: {fileID: 376833628}
+  - component: {fileID: 376833630}
   m_Layer: 7
   m_Name: player_0
   m_TagString: Player
@@ -1014,9 +1015,9 @@ MonoBehaviour:
   hitpoint: 10
   maxHitpoint: 10
   pushRecoverySpeed: 0.2
-  rb: {fileID: 0}
+  rb: {fileID: 376833628}
   moveSpeed: 3
-  animator: {fileID: 0}
+  animator: {fileID: 376833630}
 --- !u!212 &376833625
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1149,6 +1150,25 @@ MonoBehaviour:
   show_shop: 0
   show_player: 1
   moneyText: {fileID: 1035688800}
+--- !u!95 &376833630
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376833622}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7ccb5c16a0b1a6445afacefbe8befb42, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &498372408
 GameObject:
   m_ObjectHideFlags: 0
