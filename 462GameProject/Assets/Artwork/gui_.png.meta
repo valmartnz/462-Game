@@ -8,6 +8,9 @@ TextureImporter:
   - first:
       213: 9199130417533776592
     second: gui__1
+  - first:
+      213: -1851841325782825760
+    second: gui__2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -138,7 +141,7 @@ TextureImporter:
         width: 30
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -146,6 +149,27 @@ TextureImporter:
       bones: []
       spriteID: 0d2779b2060e9af70800000000000000
       internalID: 9199130417533776592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gui__2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 77
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4835c2020fc46e0800000000000000
+      internalID: -1851841325782825760
       vertices: []
       indices: 
       edges: []
