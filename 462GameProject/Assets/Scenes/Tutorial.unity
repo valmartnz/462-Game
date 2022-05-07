@@ -2364,8 +2364,20 @@ MonoBehaviour:
   textDisplay: {fileID: 1395218031}
   sentences:
   - Hello traveler!
-  - Welcome to our dungeon adventure.
-  - Before continuing, you must learn the basics.
+  - Welcome to your dungeon adventure.
+  - Before continuing, you must first learn the basics.
+  - You'll encounter many different enemies, but you can defeat them all the same.
+  - Simply press 'SPACE' to swing your weapon and attack.
+  - You'll also find many treasures in these dungeouns. To see all the goodies you
+    find you can press 'E'.
+  - You may also encounter obstacles in your way. To move them just 'walk' against
+    the object.
+  - Whenever you want to leave a dungeon all you need to do is find a portal. The
+    portal will teleport you to the Hub.
+  - What's the Hub?
+  - Well go on and find out!
+  - ...
+  - ...
   typingSpeed: 0
   continueButton: {fileID: 148580602}
 --- !u!4 &749142557
