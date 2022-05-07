@@ -2267,7 +2267,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.29, y: 0.29}
+    oldSize: {x: 0.31, y: 0.32}
     newSize: {x: 0.19, y: 0.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -14977,7 +14977,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.29, y: 0.29}
+    oldSize: {x: 0.31, y: 0.32}
     newSize: {x: 0.19, y: 0.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -15026,7 +15026,7 @@ SpriteRenderer:
   m_SortingLayerID: -44025399
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2952730121602807721, guid: ea7cc0ed39802ce428cdf411a6faed5b,
+  m_Sprite: {fileID: -3691354989564857786, guid: e87706348f2d30544a2beee11afb32e0,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -17113,6 +17113,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2705128486394609906, guid: 1e241f3434005da4193500ce672e9b0a,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3691354989564857786, guid: e87706348f2d30544a2beee11afb32e0,
+        type: 3}
     - target: {fileID: 2705128486394609910, guid: 1e241f3434005da4193500ce672e9b0a,
         type: 3}
       propertyPath: m_Name
