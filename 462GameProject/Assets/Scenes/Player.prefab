@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4151154470367042744}
   - component: {fileID: 4151154470367042743}
   - component: {fileID: 4151154470367042742}
-  - component: {fileID: 6242361338978761865}
+  - component: {fileID: 7407150928954454424}
   m_Layer: 0
   m_Name: wood_sword
   m_TagString: Untagged
@@ -27,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4151154470367042740}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071071, w: -0.7071065}
-  m_LocalPosition: {x: 0.145, y: -0.043, z: 0}
-  m_LocalScale: {x: 0.5834, y: 0.5834, z: 0.5834}
+  m_LocalRotation: {x: -0, y: -0, z: 0.3604696, w: -0.9327709}
+  m_LocalPosition: {x: 0.154, y: -0.037, z: 0}
+  m_LocalScale: {x: 0.4971553, y: 0.53982294, z: 0.53982294}
   m_Children: []
   m_Father: {fileID: 4151154471415418723}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -42.258}
 --- !u!212 &4151154470367042744
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: -44025399
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1890775650057593451, guid: 96dc24809442f4446a9aa46ad6df7ee2,
+  m_Sprite: {fileID: 2201248498008017409, guid: cbe1d2bc09c98a743944c277f08862ed,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -93,24 +93,24 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4151154470367042740}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.00028543174, y: 0.03868533}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.26, y: 0.26}
+    oldSize: {x: 0.15, y: 0.35}
     newSize: {x: 0.26, y: 0.26}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.26, y: 0.26}
+  m_Size: {x: 0.12707555, y: 0.41189426}
   m_EdgeRadius: 0
 --- !u!114 &4151154470367042742
 MonoBehaviour:
@@ -141,39 +141,25 @@ MonoBehaviour:
   damagePoint: 1
   pushForce: 4
   weaponLevel: 0
---- !u!60 &6242361338978761865
-PolygonCollider2D:
+--- !u!95 &7407150928954454424
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4151154470367042740}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.26, y: 0.26}
-    newSize: {x: 0.26, y: 0.26}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.10421797, y: -0.0038269926}
-      - {x: -0.04816884, y: 0.13176055}
-      - {x: -0.17577441, y: 0.17577429}
-      - {x: -0.13352123, y: 0.0602809}
-      - {x: -0.051901847, y: -0.04549339}
-      - {x: 0.13, y: -0.13}
-      - {x: 0.12119729, y: -0.08218268}
-      - {x: 0.105915636, y: -0.041056044}
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fbd7c593eab525141acd8a9fa741ed12, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4151154471415418721
 GameObject:
   m_ObjectHideFlags: 0
