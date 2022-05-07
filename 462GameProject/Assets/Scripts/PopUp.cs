@@ -21,7 +21,12 @@ public class PopUp : MonoBehaviour
     public void ClosePopUp() {
         show_popUp = false;
         popUpBox.SetActive(show_popUp);
-        Debug.Log("Popup is closed");
+    }
+
+    public void ManualClosePopUp() {
+        playerInRange = false;
+        show_popUp = false;
+        popUpBox.SetActive(show_popUp);
     }
 
     // Update is called once per frame
