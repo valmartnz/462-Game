@@ -21,8 +21,8 @@ Download Instructions:
 
 ## Developers
 
-[Valerie Martinez](https://github.com/valmartnz)
-[Zach Serna](https://github.com/Zserna)
-[Kevin Espinoza](https://github.com/Kevin-Espinoza)
-[Richard Kha](https://github.com/RichardKha)
-[Rachael Pereira](https://github.com/rachaelmp)
+[Valerie Martinez](https://github.com/valmartnz)  
+[Zach Serna](https://github.com/Zserna)  
+[Kevin Espinoza](https://github.com/Kevin-Espinoza)  
+[Richard Kha](https://github.com/RichardKha)  
+[Rachael Pereira](https://github.com/rachaelmp)  
