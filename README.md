@@ -1,5 +1,5 @@
 # Dungeon Crawler
-**![](https://lh6.googleusercontent.com/aE5HgMf1hncwnWRgqEkHEDrcX8JtDHLNAXrC38m2oki1_AyQb9TgDN-I82oSn5rl1irAw1LbLfGSHfm7MxzVVkST-pGKlCieiVUtQ07MEf8l8lrAFO0rkPgBXxTAr_X23F8ls8KQEqLHs_Bnew)**
+**![](https://lh6.googleusercontent.com/aE5HgMf1hncwnWRgqEkHEDrcX8JtDHLNAXrC38m2oki1_AyQb9TgDN-I82oSn5rl1irAw1LbLfGSHfm7MxzVVkST-pGKlCieiVUtQ07MEf8l8lrAFO0rkPgBXxTAr_X23F8ls8KQEqLHs_Bnew)**  
 Welcome! This is a game that is a top down 2D dungeon crawler with a mix of both combat and puzzle solving. The goal of this project is to gain experience using the Unity Engine as it was many of our first times using it. 
 
 This game, which is still far from finished, is a culmination of us developers trying our hand at creating a game with the experience and resources we have.
