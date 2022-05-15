@@ -15,9 +15,9 @@ We also had a developer create our own sprites to add to the game, which gave us
 
 ### Full 1.0 release (Windows Ver) playable [here](https://github.com/valmartnz/462-Game/releases/tag/v1.0)  
 Download Instructions:
-- Install the **DungeonCrawler.exe** file and the **DungeonCrawler_Data.zip** folder
-- Extract the zip file, and save the unzipped folder in the same directory as the .exe file
-- Run the .exe file after and the game will launch and run
+- Download the Exectuable_Game.zip folder in the link above for the game files.
+- Extract the zip files into the same folder
+- Run the DungeonCrawler.exe file after and the game will launch and run
 
 ## Developers
 
